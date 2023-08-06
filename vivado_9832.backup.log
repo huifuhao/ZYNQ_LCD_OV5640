@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri May  6 14:50:58 2022
+# Process ID: 9832
+# Current directory: F:/xilinx/ucgui/ov5640_hdmi_lcd
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9892 F:\xilinx\ucgui\ov5640_hdmi_lcd\ov7725_hdmi_lcd.xpr
+# Log file: F:/xilinx/ucgui/ov5640_hdmi_lcd/vivado.log
+# Journal file: F:/xilinx/ucgui/ov5640_hdmi_lcd\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/xilinx/ucgui/ov5640_hdmi_lcd/ov7725_hdmi_lcd.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/xilinx/ucgui/ov5640_hdmi_lcd/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/xilinx/ucgui/ov5640_hdmi_lcd/gt9147ip_1.0'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'f:/xilinx/ucgui/ov5640_hdmi_lcd/ip_repo/ov5640_cap_data'. The path is contained within another repository.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 792.371 ; gain = 188.227
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May  6 15:04:26 2022...

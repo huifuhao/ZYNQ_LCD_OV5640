@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat May 14 13:43:01 2022
+# Process ID: 6476
+# Current directory: F:/xilinx/ucgui/ov5640_hdmi_lcd
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9560 F:\xilinx\ucgui\ov5640_hdmi_lcd\ov7725_hdmi_lcd.xpr
+# Log file: F:/xilinx/ucgui/ov5640_hdmi_lcd/vivado.log
+# Journal file: F:/xilinx/ucgui/ov5640_hdmi_lcd\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/xilinx/ucgui/ov5640_hdmi_lcd/ov7725_hdmi_lcd.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/xilinx/ucgui/ov5640_hdmi_lcd/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/xilinx/ucgui/ov5640_hdmi_lcd/gt9147ip_1.0'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'f:/xilinx/ucgui/ov5640_hdmi_lcd/ip_repo/ov5640_cap_data'. The path is contained within another repository.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 809.074 ; gain = 208.426
+open_bd_design {F:/xilinx/ucgui/ov5640_hdmi_lcd/ov7725_hdmi_lcd.srcs/sources_1/bd/system/system.bd}
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_0
+Adding cell -- xilinx.com:ip:smartconnect:1.0 - axi_smc
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding cell -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:ip:v_tc:6.1 - v_tc_0
+Adding cell -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
+Adding cell -- xilinx.com:ip:v_vid_in_axi4s:4.0 - v_vid_in_axi4s_0
+Adding cell -- alientek.com:user:ov5640_capture_data:1.0 - ov5640_capture_data_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding cell -- xilinx.com:user:gt9147ip:1.0 - gt9147ip_0
+Adding cell -- xilinx.com:ip:system_ila:1.1 - system_ila_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /ov5640_capture_data_0/cmos_frame_ce(undef) and /v_vid_in_axi4s_0/vid_io_in_ce(ce)
+Successfully read diagram <system> from BD file <F:/xilinx/ucgui/ov5640_hdmi_lcd/ov7725_hdmi_lcd.srcs/sources_1/bd/system/system.bd>
+open_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1182.660 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat May 14 13:46:05 2022...
